@@ -24,7 +24,7 @@ export function ContactUs() {
 
         <li>
           <strong>WhatsApp:</strong>{" "}
-          <a href="https://wa.me/60123456789">
+          <a href="https://wa.me/60188741578">
             +60 18-874 1578
           </a>
         </li>
