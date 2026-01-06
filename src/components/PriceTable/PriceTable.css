@@ -1,0 +1,22 @@
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.price-table th,
+.price-table td {
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.price-table th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+.price-table img {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}
