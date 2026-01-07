@@ -1,0 +1,26 @@
+.contact-page {
+    background-color: #fffff0;
+}
+
+.contact-page h1 {
+  margin-bottom: 1rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.contact-list a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
