@@ -52,7 +52,9 @@ export function PriceTable({ items }: Props) {
             <td>
               <div className="price-cell">
                 <span className="price-value">{item.loosePack}</span>
-                <span className="price-desc">({t("loosePack")})</span>
+                <span className="price-desc">
+                  {item.loosePack == "-" ? "" : `(${t("loosePack")})`}
+                </span>
               </div>
             </td>
           </tr>
