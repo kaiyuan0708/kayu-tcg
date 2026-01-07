@@ -13,8 +13,8 @@ export function PriceTable({ items }: Props) {
     <table className="price-table">
       <thead>
         <tr>
-          <th>Product</th>
-          <th>Code</th>
+          <th>{t("product")}</th>
+          <th></th>
           <th>{t("shrinked")}</th>
           <th>{t("unshrinked")}</th>
           <th>{t("noBox")}</th>
