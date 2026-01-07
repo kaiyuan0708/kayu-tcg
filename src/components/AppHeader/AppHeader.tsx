@@ -14,7 +14,7 @@ export function AppHeader() {
             alt="KY Logo"
             className="logo"
           />
-          <span>KY TCG</span>
+          <span>Kayu TCG</span>
         </NavLink>
       </nav>
 
