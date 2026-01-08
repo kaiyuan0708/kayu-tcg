@@ -1,13 +1,13 @@
 header {
   background: #fffff0;
   border-bottom: 1px solid var(--color-border);
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Left side (logo + main) */
+/* Left side (logo) */
 .nav-left {
   display: flex;
   align-items: center;
@@ -19,39 +19,52 @@ header {
   gap: 0.5rem;
   font-weight: 600;
   color: var(--color-text);
-  text-decoration: none;
   padding: 0.25rem 0.5rem;
   border-radius: 6px;
+  white-space: nowrap;
 }
 
-/* Logo image */
 .logo {
-  width: 35px;
+  width: 32px;
   height: auto;
-  object-fit: contain;
 }
 
-/* Active state */
-.logo-link.active {
-  color: var(--color-primary);
+/* Right side (language toggle) */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
-.logo-link:hover {
+.nav-right button {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.4rem;
+  border-radius: 4px;
+}
+
+.nav-right button:hover {
   background-color: var(--color-border);
 }
 
-/* Right side nav */
-.nav-right a {
-  padding: 0.5rem 0.75rem;
-  border-radius: 6px;
-  font-weight: 500;
-}
+/* -------------------------
+   Mobile fine-tuning ONLY
+-------------------------- */
+@media (max-width: 640px) {
+  header {
+    padding: 0.5rem 0.75rem;
+  }
 
-.nav-right a.active {
-  background-color: var(--color-primary);
-  color: white;
-}
+  .logo {
+    width: 28px;
+  }
 
-.nav-right a:hover {
-  background-color: var(--color-border);
+  .logo-link span {
+    font-size: 0.9rem;
+  }
+
+  .nav-right button {
+    font-size: 0.85rem;
+  }
 }
