@@ -19,7 +19,7 @@ export function AppFooter() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            kaiiyuan98x
+            kaiiyuan98
           </a>
         </li>
 
