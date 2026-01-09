@@ -26,7 +26,7 @@ export function AppFooter() {
         <li>
           <SiXiaohongshu className="footer-icon rednote" />
           <a
-            href="https://www.xiaohongshu.com/user/profile/4220452954"
+            href="https://www.xiaohongshu.com/user/profile/61128a7900000000010089c6"
             target="_blank"
             rel="noopener noreferrer"
           >
