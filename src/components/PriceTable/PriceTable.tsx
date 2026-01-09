@@ -28,7 +28,7 @@ export function PriceTable({ items }: Props) {
               <img src={item.imageUrl} alt={item.code} />
             </td>
 
-            <td data-label="Code">{item.code}</td>
+            <td>{item.code}</td>
 
             <td data-label={t("shrinked")}>
               <div className="price-cell">
